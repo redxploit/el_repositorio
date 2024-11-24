@@ -175,4 +175,21 @@ main{
     }
 }
 
+.contenedor__logo img {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    max-width: 150px;
+    height: auto;
+}
+
+.titulo_pagina {
+    text-align: center;
+    font-size: 36px;
+    color: #46A2FD;
+    margin-bottom: 30px;
+}
+
+
+
 @import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";

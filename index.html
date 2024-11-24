@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login y Register - MagtimusPro</title>
-    
+    <title>Inventario Sena</title>
+    <link rel="icon" href="../Proyecto/assets/IMG/logo-sena-negro.ico">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"> -->
     <link rel="stylesheet" href="assets/CSS/estilo.css">
@@ -12,7 +12,13 @@
 <body>
 
         <main>
-
+            <div class="titulo_pagina">
+                <h2>Inventario Sena</h2>
+            </div>
+            <div class="contenedor__logo">
+                <a href="https://www.sena.edu.co/es-co/Paginas/default.aspx"><img src="../Proyecto/assets/IMG/logo-sena-negro.ico" alt="Logo Sena"></a>
+            </div>
+            
             <div class="contenedor__todo">
                 <div class="caja__trasera">
                     <div class="caja__trasera-login">
@@ -32,7 +38,7 @@
                     <!--Login-->
                     <form action="" class="formulario__login">
                         <h2>Iniciar Sesión</h2>
-                        <input type="text" placeholder="Correo Electronico">
+                        <input type="text" placeholder="Usuario/Correo Electronico">
                         <input type="password" placeholder="Contraseña">
                         <button>Entrar</button>
                     </form>
@@ -44,6 +50,18 @@
                         <input type="text" placeholder="Correo Electronico">
                         <input type="text" placeholder="Usuario">
                         <input type="password" placeholder="Contraseña">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                              Action
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            </ul>
+                          </div>
                         <button>Regístrarse</button>
                     </form>
                 </div>
@@ -52,5 +70,6 @@
         </main>
 
         <script src="assets/js/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
